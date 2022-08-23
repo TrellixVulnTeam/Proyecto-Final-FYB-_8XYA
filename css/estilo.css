@@ -25,7 +25,7 @@
   }
   
     h2 {
-    color: #fff;
+    color: black;
     margin: 10px 0 0 0;
     font-size: 24px;
   }
@@ -108,4 +108,12 @@
     text-align: center;
     color: orange;
 
+  }
+
+
+  /* Carrusel */
+
+  .imagenCarrusel{
+      height: 500px;
+      object-fit: cover;
   }
