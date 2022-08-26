@@ -119,6 +119,29 @@
   }
 
 
+  /* Contacto */
+
+ .animacion{
+    animation: move 3s ease-in ;
+ }
+
+  @keyframes move {
+    0% {
+      transform: translate(0,-20%);
+    }
+
+    50% {
+      transform: translate(0,-15%)
+    }
+
+    75% {
+      transform: translate(0,-10%)
+    }
+
+    100% {
+      transform: translate(0,0)
+    }
+  }
 
   /* Pagina Tratamientos */
   .imagenTratamientoUno {
