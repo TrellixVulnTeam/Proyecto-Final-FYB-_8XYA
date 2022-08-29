@@ -1,64 +1,251 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/estilo.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/estilo.css" />
     <title>Contacto</title>
-</head>
-<body class="gridPadre">
-    <header>
-        <nav>
-            <ul>
-                <img class="logoDeMarca" src="../img/LogoMarca.png" alt="">
-            <nav class="menuPrincipal">
-                <li><a href="../index.html">inicio</a></li>
-                <li><a href="./tratemientos.html">Tratamiento</a></li>
-                <li><a href="./testimonios.html">Testimonios</a></li>
-                <li><a href="./nosotros.html">Nosotros</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </nav>
+  </head>
+
+  <body>
+    <header class="p-3 mb-3 border-bottom">
+      <div class="container">
+        <div
+          class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
+        >
+          <a
+            href="/"
+            class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none"
+          >
+            <svg
+              class="bi me-2"
+              width="40"
+              height="32"
+              role="img"
+              aria-label="Bootstrap"
+            >
+              <use xlink:href="#bootstrap" />
+            </svg>
+          </a>
+          <img src="../img/LogoMarca.png" alt="Logo de la marca" />
+          <ul
+            class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
+          >
+            <li>
+              <a href="../index.html" class="nav-link px-2 link-secondary"
+                >Inicio</a
+              >
+            </li>
+            <li>
+              <a href="./tratemientos.html" class="nav-link px-2 link-dark"
+                >Tratamientos</a
+              >
+            </li>
+            <li>
+              <a href="./nosotros.html" class="nav-link px-2 link-dark"
+                >nosotros</a
+              >
+            </li>
+            <li>
+              <a href="./contacto.html" class="nav-link px-2 link-dark"
+                >Contacto</a
+              >
+            </li>
+          </ul>
+
+          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+            <input
+              type="search"
+              class="form-control"
+              placeholder="Buscar"
+              aria-label="Search"
+            />
+          </form>
+        </div>
+      </div>
     </header>
 
- 
-       
-    <form class="formularioDeContacto" action="">
-        <label for="Nombre">Nombres</label>
-        <input type="text">
-        <label for="Apellido">Apellido</label>
-        <input type="text">
-        <label for="e-mail">Email</label>
-        <input type="text">
-        <label for="celular">Celular</label>
-        <input type="number">
-        <label for="mensaje">mensaje</label>
-        <input type="text">
-        <input type="submit">
-          </form>
-    
+    <main class="cuerpoPrincipal">
+      <section id="hero" class="d-flex align-items-center">
+        <div class="container" data-aos="zoom-out" data-aos-delay="100">
+          <div class="row">
+            <div class="col-xl-6">
+              <h1>Centro estetica y de salud F&B</h1>
+              <h2>Servicio Integral de belleza y salud</h2>
+              <a href="./html/contacto.html" class="btn-get-started scrollto"
+                >Recibir Informacion</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======= Contact Section ======= -->
+      <section id="contact" class="contact animacion">
+        <p>
+          Para mas informacion y asesoramiento no dudes en ponerte en contacto
+          con nostros. Te responderemos lo antes posibles a cada unas de tus
+          dudas y consultas.
+        </p>
+        <div class="container" data-aos="fade-up">
+          <div class="section-title mt-4">
+            <h2>Contact</h2>
+          </div>
+
+          <div class="row" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="info-box">
+                    <i class="bx bx-map"></i>
+                    <h3>Redes Sociales</h3>
+                    <a href="">
+                      <p>facebook</p>
+                      <img src="../img/LogoFacebook.png" alt="" />
+                    </a>
+                    <a href="">
+                      <p>instagram</p>
+                      <img src="../img/LogoInstagram.png" alt="" />
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="info-box mt-4">
+                    <i class="bx bx-envelope"></i>
+                    <h3>Email</h3>
+                    <p>info@example.com<br />contact@example.com</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="info-box mt-4">
+                    <i class="bx bx-phone-call"></i>
+                    <h3>Contacto</h3>
+                    <p>54 11 7361-4573<br />11 5079-0603</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <form
+                action="forms/contact.php"
+                method="post"
+                role="form"
+                class="php-email-form"
+              >
+                <div class="row">
+                  <div class="col form-group">
+                    <input
+                      type="text"
+                      name="name"
+                      class="form-control"
+                      id="name"
+                      placeholder="Nombre Completo"
+                      required
+                    />
+                  </div>
+                  <div class="col form-group">
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      id="email"
+                      placeholder="Email"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form-group mt-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="subject"
+                    id="subject"
+                    placeholder="Motivo"
+                    required
+                  />
+                </div>
+                <div class="form-group mt-4">
+                  <textarea
+                    class="form-control"
+                    name="message"
+                    rows="5"
+                    placeholder="Escriba aqui su mensaje...."
+                    required
+                  ></textarea>
+                </div>
+                <div class="text-center mt-4">
+                  <button type="submit">Enviar Mensaje</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Ubicacion (Google maps) -->
+    <section class="ubicacionGoogleMaps">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2322.0021963894533!2d-58.633198447907574!3d-34.60904162299143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb927f6692f8b%3A0xcc7d213a4bec49f9!2sVasco%20N%C3%BA%C3%B1ez%20de%20Balboa%20546%2C%20Villa%20Tesei%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1661815371764!5m2!1ses-419!2sar"
+        width="1000"
+        height="350"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
     </section>
 
-   
+    <div class="container">
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <p class="col-md-4 mb-0 text-muted">&copy; 2022 Company, Inc</p>
 
-    <footer >
-        <h2>esto es un footer.</h2>
-        <img class="logoDeMarca" src="../img/LogoMarca.png" alt="">
-        <a href="https://www.instagram.com/" target="_blank">
-            <img class="instagram" src="../img/LogoInstagram.png "  alt="">
+        <a
+          href=""
+          class="col-md-4 d-flex align-items-center jusonttify-cent-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none"
+        >
+          <svg class="bi me-2" width="40" height="32">
+            <use xlink:href="#bootstrap" />
+          </svg>
         </a>
-        <a href="https://www.facebook.com/" target="_blank">
-            <img class="facebook" src="../img/LogoFacebook.png" alt="">
-        </a>
-        
-        <img class="pedirInformacion" src="" alt="">
-        
-        <nav class="linkDestacados">
-            <li><a href="./tratemientos.html">Tratamiento</a></li>
-            <li><a href="./testimonios.html">Testimonios</a></li>
-            <li><a href="./nosotros.html">Nosotros</a></li>
-            <li><a href="./contacto.html">Contacto</a></li>
-        </nav>
-    </footer>
-</body>
+
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item">
+            <a href="./index.html" class="nav-link px-2 text-muted">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a href="./html/tratemientos.html" class="nav-link px-2 text-muted"
+              >Tratamientos</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="./html/nosotros.html" class="nav-link px-2 text-muted"
+              >Nosotros</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="./html/contacto.html" class="nav-link px-2 text-muted"
+              >Contacto</a
+            >
+          </li>
+        </ul>
+      </footer>
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
