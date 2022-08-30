@@ -76,13 +76,14 @@
 
     <!-- Servicios Destacados. -->
 
-    <h2 class="text-center mt-5  ">Algunos de nuestros servicios</h2>
-    <div class="row animacion">
+    
+    <div class="row animacion estiloDestacadas">
+      <h2 class="text-center mt-5  ">Algunos de nuestros servicios</h2>
       <a class="col-xl-2 col-md-6 col-sm-12 mt-3" href="./html/tratemientos.html">
         <div class="card" style="width: 12rem">
           <img src="./img/Destacado Depilacion Definitiva.png" class="card-img-top" alt="..." />
           <div class="card-body">
-            <p class="card-text textoServicio">
+            <p class="card-text">
               Nos especializamos en depilacion Femenina como Masculina. Decile
               chau al dolor con este tratamiento en el cual veras resultados
               desde la primera sesion
@@ -95,7 +96,7 @@
         <div class="card" style="width: 12rem">
           <img src="./img/Destacado VelaSlimPlus.png" class="card-img-top" alt="..." />
           <div class="card-body">
-            <p class="card-text textoServicio">
+            <p class="card-text ">
               VelaSlim utiliza la luz infrarroja, sumada a la energía de
               radiofrecuencia y la succión. Esta combinación produce un nivel
               intenso de calor aplicado a las células adiposas
@@ -108,7 +109,7 @@
         <div class="card" style="width: 12rem">
           <img src="./img/Destacado BodyUp.png" class="card-img-top" alt="..." />
           <div class="card-body">
-            <p class="card-text textoServicio">
+            <p class="card-text ">
               Tratamiento de alta frecuencia, con el cual podras genera el
               levantamiento y reafirmación de glúteos, muslos, abdomen por
               nombrar algunas zonas.
@@ -121,7 +122,7 @@
         <div class="card" style="width: 12rem">
           <img src="./img/Destacado Manicuria.png" class="card-img-top" alt="..." />
           <div class="card-body">
-            <p class="card-text textoServicio">
+            <p class="card-text ">
               Nuestra mision es ofrecerte el mejor servicio para que tus manos
               se luzcan en cada una de las ocasiones. Servicio integral de
               manicuria y belleza de manos, no te lo pierdas.
@@ -134,7 +135,7 @@
         <div class="card" style="width: 12rem">
           <img src="./img/Destacado Podologia.png" class="card-img-top" alt="..." />
           <div class="card-body">
-            <p class="card-text textoServicio">
+            <p class="card-text ">
               Servicio integral de podologia tratamos micosis, hongos,
               durezas, todo lo que aqueja a tus pies nosotros lo tratamos pedi
               tu consulta con nuestros profesionales.
@@ -148,7 +149,7 @@
           <img src="./img/Destacado Piedras Calientes.png" class="card-img-top"
             alt="Tratamiento masaje con piedras calientes." />
           <div class="card-body">
-            <p class="card-text textoServicio">
+            <p class="card-text ">
               El masaje con piedras es una forma de terapia de masaje de
               medicina alternativa y trabajo corporal, preparate para
               descontracturarte, perfecto para dolores corporales y nudos.
@@ -160,16 +161,16 @@
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact animacion ">
-      <div class="container" data-aos="fade-up">
+      <div class="container " data-aos="fade-up">
 
-        <div class="section-title mt-4">
+        <div class="section-title mt-4 infoExtra">
           <h2>Contact</h2>
 
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
 
-          <div class="col-lg-6">
+          <div class="col-lg-6 infoExtra">
 
             <div class="row">
               <div class="col-md-12">
@@ -197,9 +198,9 @@
 
           </div>
 
-          <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
+          <div class="col-lg-6 formulario">
+            <form  action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row ">
                 <div class="col form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Nombre Completo" required>
                 </div>
@@ -225,13 +226,23 @@
 
     <!-- End Contact Section -->
 
+    
 
-    <div class="mapaUbicacion">
-      <h2>Aca se va a vizualizar la ubicacion</h2>
-    </div>
+     <!-- Ubicacion (Google maps) -->
+     <section class="ubicacionGoogleMaps mt-5">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2322.0021963894533!2d-58.633198447907574!3d-34.60904162299143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb927f6692f8b%3A0xcc7d213a4bec49f9!2sVasco%20N%C3%BA%C3%B1ez%20de%20Balboa%20546%2C%20Villa%20Tesei%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1661815371764!5m2!1ses-419!2sar"
+        width="70%"
+        height="350"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
 
     <!-- Carrusel de imagenes  -->
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    <div id="carouselExampleIndicators" class="carousel slide mt-4" data-bs-ride="true">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
           aria-current="true" aria-label="Slide 1"></button>
