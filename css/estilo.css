@@ -81,12 +81,56 @@
 /* Formulario de contacto*/
 .infoExtra {
   position: relative;
-  top: 20px;
-  border: orangered 1px solid; }
+  top: 30px;
+  right: 20px; }
+  .infoExtra h2 {
+    color: orange;
+    text-transform: uppercase;
+    text-decoration: underline; }
 
 .formulario {
-  border: orangered 1px solid;
-  padding: 20px; }
+  border: blanchedalmond 1px solid;
+  padding: 20px;
+  background-color: #e8caa4; }
+
+.nuestradireccion {
+  border: blanchedalmond 1px solid;
+  position: relative;
+  top: 40px;
+  background-color: #e8caa4; }
+  .nuestradireccion h3 {
+    text-align: center;
+    color: whitesmoke;
+    text-transform: uppercase; }
+  .nuestradireccion p {
+    text-align: center;
+    color: whitesmoke; }
+
+.nuestroEmail {
+  border: blanchedalmond 1px solid;
+  position: relative;
+  top: 50px;
+  background-color: #e8caa4; }
+  .nuestroEmail h3 {
+    text-align: center;
+    color: whitesmoke;
+    text-transform: uppercase; }
+  .nuestroEmail p {
+    text-align: center;
+    color: whitesmoke; }
+
+.nuestroNumero {
+  border: blanchedalmond 1px solid;
+  position: relative;
+  top: 50px;
+  background-color: #e8caa4; }
+  .nuestroNumero h3 {
+    text-align: center;
+    color: whitesmoke;
+    text-transform: uppercase; }
+  .nuestroNumero p {
+    text-align: center;
+    color: whitesmoke; }
 
 /* google maps */
 .ubicacionGoogleMaps {
