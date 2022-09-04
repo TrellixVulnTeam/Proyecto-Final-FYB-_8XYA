@@ -6,58 +6,7 @@
 @import"header";
 @import"bannerPrincipales";
 @import"estiloDestacados";
-@import"datosContactoYFormulario";
+@import"datosContactoYFomulario";
 @import"carrusel";
-
-
-
-
-
-
-/* Tratamiento */
-
-.imagenTratamientoUno {
-    background: url("../img/Tratamiento\ Depilacion\ Definitiva.gif") no-repeat;
-    width: 500px;
-    height: 500px;
-    position: relative;
-    left: 40px;
-  }
-
-  .imagenTratamientoDos{
-    background: url("../img/Tratamiento\ VelaSlimPlus.gif") no-repeat;
-    width: 500px;
-    height: 500px;
-    position: relative;
-    left: 80px;
-  }
-
-  .imagerTratamientoTres{
-    background: url("../img/Tratamiento\ Podologia.gif") no-repeat;
-    width: 500px;
-    height: 500px;
-    position: relative;
-    left: 40px;
-  }
-
-  .ImagenTratamientoCuatro{
-    background: url("../img/Tratamiento\ Podologia.gif") no-repeat;
-    width: 500px;
-    height: 500px;
-    position: relative;
-    left: 80px;
-  }
-
-  .tituloPrincipal{
-    text-align: center;
-  }  
-  .textoDescripcion{
-    text-align: center;
-  }
-
-
-
-
-    
-
- 
+@import"tratamientos";
+@import"redesSocialesContacto";
