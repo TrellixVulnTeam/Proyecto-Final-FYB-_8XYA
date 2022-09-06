@@ -265,5 +265,10 @@ header {
 .textoDescripcion {
   text-align: center; }
 
-.imagenLogoInstagram {
-  background: url("../img/LogoInstagram.png") no-repeat; }
+.facebook {
+  background: url(../img/LogoFacebook.png); }
+
+.instagram {
+  background: url(../img/LogoInstagram.png); }
+
+/* el map get lo llevare a cabo en la seccion llamado redesSocialesContacto */

@@ -1,0 +1,11 @@
+$mapsRedes:(facebook: url(../img/LogoFacebook.png) , instagram: url(../img/LogoInstagram.png) );
+
+@each $logosRedes , $link in $mapsRedes {
+    .#{$logosRedes} {
+        background: $link; 
+    }
+}
+
+/* el map get lo llevare a cabo en la seccion llamado redesSocialesContacto */ 
+
+$redesSociales: (altura: 5rem , ancho: 5rem ); 

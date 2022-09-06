@@ -1,3 +1,12 @@
-.imagenLogoInstagram{
-    background: url("../img/LogoInstagram.png") no-repeat;
+.facebook{
+    background: url(../img/LogoFacebook.png); 
+    height: map-get($redesSociales , altura );
+    width: map-get($redesSociales , ancho );
 }
+
+.instagram{
+    background: url(../img/LogoInstagram.png);
+    height: map-get($redesSociales , altura );
+    width: map-get($redesSociales , ancho );
+}
+

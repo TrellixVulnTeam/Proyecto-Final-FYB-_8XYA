@@ -10,26 +10,18 @@
 
   .imagenTratamientoDos{
     background: url("../img/Tratamiento\ VelaSlimPlus.gif") no-repeat;
-    width: 500px;
-    height: 500px;
-    position: relative;
+    @extend .imagenTratamientoUno;
     left: 80px;
   }
 
   .imagerTratamientoTres{
     background: url("../img/Tratamiento\ Podologia.gif") no-repeat;
-    width: 500px;
-    height: 500px;
-    position: relative;
-    left: 40px;
+    @extend .imagenTratamientoUno;
   }
 
-  .ImagenTratamientoCuatro{
-    background: url("../img/Tratamiento\ Podologia.gif") no-repeat;
-    width: 500px;
-    height: 500px;
-    position: relative;
-    left: 80px;
+  .imagenTratamientoCuatro{
+    background: url("../img/Tratamiento\ bodyUp.gif") no-repeat;
+    @extend .imagenTratamientoUno;
   }
 
   .tituloPrincipal{

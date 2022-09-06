@@ -1,0 +1,13 @@
+@mixin estiloDatosContacto {
+    border: blanchedalmond 1px solid;
+    position: relative;
+    top: 40px;
+    background-color: #e8caa4;
+}
+
+
+@mixin estiloFuenteContacto {
+    text-align: center;
+    color: whitesmoke;
+    text-transform: uppercase;
+}
