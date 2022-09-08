@@ -20,6 +20,13 @@ header {
       header .elementosMenu:hover {
         background-color: white; } }
 
+.facebook {
+  background: url(../img/LogoFacebook.png); }
+
+.instagram {
+  background: url(../img/LogoInstagram.png); }
+
+/* el map get lo llevare a cabo en la seccion llamado redesSocialesContacto */
 /* Imagenes Iniciales */
 #hero {
   width: 100%;
@@ -164,6 +171,44 @@ header {
       text-align: center;
       padding-top: 58px; } }
 
+#hero5 {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/BannerPrincipal_contacto.png") top center no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 82px; }
+  #hero5 h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff; }
+  #hero5 h2 {
+    color: #fff;
+    margin: 10px 0 0 0;
+    font-size: 24px; }
+  #hero5 .btn-get-started {
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 4px;
+    transition: 0.5s;
+    margin-top: 30px;
+    color: #fff;
+    background: orangered;
+    border: 2px solid orange; }
+  #hero5 .btn-get-started:hover {
+    background: transparent;
+    border-color: #fff; }
+  @media (max-width: 768px) {
+    #hero5 {
+      text-align: center;
+      padding-top: 58px; } }
+
 /* Servicios Destacados */
 .estiloDestacadas h2 {
   text-align: center;
@@ -195,7 +240,7 @@ header {
 .nuestroEmail {
   border: blanchedalmond 1px solid;
   position: relative;
-  top: 50px;
+  top: 40px;
   background-color: #e8caa4; }
   .nuestroEmail h3 {
     text-align: center;
@@ -208,7 +253,7 @@ header {
 .nuestroNumero {
   border: blanchedalmond 1px solid;
   position: relative;
-  top: 50px;
+  top: 40px;
   background-color: #e8caa4; }
   .nuestroNumero h3 {
     text-align: center;
@@ -231,7 +276,7 @@ header {
   object-fit: cover; }
 
 /* Tratamiento */
-.imagenTratamientoUno {
+.imagenTratamientoUno, .imagenTratamientoDos, .imagerTratamientoTres, .imagenTratamientoCuatro, .imagenNostrosUno, .imagenNostrosDos {
   background: url("../img/Tratamiento Depilacion Definitiva.gif") no-repeat;
   width: 500px;
   height: 500px;
@@ -240,24 +285,13 @@ header {
 
 .imagenTratamientoDos {
   background: url("../img/Tratamiento VelaSlimPlus.gif") no-repeat;
-  width: 500px;
-  height: 500px;
-  position: relative;
   left: 80px; }
 
 .imagerTratamientoTres {
-  background: url("../img/Tratamiento Podologia.gif") no-repeat;
-  width: 500px;
-  height: 500px;
-  position: relative;
-  left: 40px; }
+  background: url("../img/Tratamiento Podologia.gif") no-repeat; }
 
-.ImagenTratamientoCuatro {
-  background: url("../img/Tratamiento Podologia.gif") no-repeat;
-  width: 500px;
-  height: 500px;
-  position: relative;
-  left: 80px; }
+.imagenTratamientoCuatro {
+  background: url("../img/Tratamiento bodyUp.gif") no-repeat; }
 
 .tituloPrincipal {
   text-align: center; }
@@ -266,9 +300,84 @@ header {
   text-align: center; }
 
 .facebook {
-  background: url(../img/LogoFacebook.png); }
+  background: url(../img/LogoFacebook.png);
+  height: 5rem;
+  width: 5rem; }
 
 .instagram {
-  background: url(../img/LogoInstagram.png); }
+  background: url(../img/LogoInstagram.png);
+  height: 5rem;
+  width: 5rem; }
 
-/* el map get lo llevare a cabo en la seccion llamado redesSocialesContacto */
+.team .member {
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 5px;
+  background: #fff; }
+
+.team .member .member-img {
+  position: relative;
+  overflow: hidden; }
+
+.team .member .social {
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+  right: 0;
+  opacity: 0;
+  transition: ease-in-out 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.team .member .social a {
+  transition: color 0.3s;
+  color: #111111;
+  margin: 0 3px;
+  border-radius: 50px;
+  width: 36px;
+  height: 36px;
+  background: #e03a3c;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: ease-in-out 0.3s;
+  color: #fff; }
+
+.team .member .social a:hover {
+  background: #111111; }
+
+.team .member .social i {
+  font-size: 18px;
+  line-height: 0; }
+
+.team .member .member-info {
+  padding: 25px 15px; }
+
+.team .member .member-info h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #111111; }
+
+.team .member .member-info span {
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+  color: #aaaaaa; }
+
+.team .member .member-info p {
+  font-style: italic;
+  font-size: 14px;
+  line-height: 26px;
+  color: #777777; }
+
+.team .member:hover .social {
+  opacity: 1;
+  bottom: 15px; }
+
+.imagenNostrosUno {
+  background: url("../img/seccionNosotros_fabiana.png") no-repeat; }
+
+.imagenNostrosDos {
+  background: url("../img/imagenDestacados_maquina.png") no-repeat; }
