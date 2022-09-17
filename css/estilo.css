@@ -1,30 +1,39 @@
 /* Index */
 /* Header */
 header {
-  background-color: whitesmoke; }
-  header .logoDeMarca {
+  background-color: whitesmoke;
+}
+header .logoDeMarca {
+  position: relative;
+  right: 30px;
+  height: 100px;
+}
+header .logoDeMarca a {
+  text-transform: uppercase;
+  font-size: 0, 8rem;
+}
+@media (min-width: 1024px) {
+  header .elementosMenu {
     position: relative;
-    right: 30px;
-    height: 100px; }
-    header .logoDeMarca a {
-      text-transform: uppercase;
-      font-size: 0,8rem; }
-  @media (min-width: 1024px) {
-    header .elementosMenu {
-      position: relative;
-      left: 160px; }
-      header .elementosMenu a {
-        margin-left: 17px;
-        text-transform: uppercase;
-        font-size: 0,8rem; }
-      header .elementosMenu:hover {
-        background-color: white; } }
+    left: 160px;
+  }
+  header .elementosMenu a {
+    margin-left: 17px;
+    text-transform: uppercase;
+    font-size: 0, 8rem;
+  }
+  header .elementosMenu:hover {
+    background-color: white;
+  }
+}
 
 .facebook {
-  background: url(../img/LogoFacebook.png); }
+  background: url(../img/LogoFacebook.png);
+}
 
 .instagram {
-  background: url(../img/LogoInstagram.png); }
+  background: url(../img/LogoInstagram.png);
+}
 
 /* el map get lo llevare a cabo en la seccion llamado redesSocialesContacto */
 /* Imagenes Iniciales */
@@ -34,37 +43,44 @@ header {
   background: url("../img/Banner De Inicio.gif") top center no-repeat;
   background-size: cover;
   position: relative;
-  padding-top: 82px; }
-  #hero h1 {
-    margin: 0;
-    font-size: 48px;
-    font-weight: 700;
-    color: #fff; }
-  #hero h2 {
-    color: #fff;
-    margin: 10px 0 0 0;
-    font-size: 24px; }
-  #hero .btn-get-started {
-    text-decoration: none;
-    font-family: "Raleway", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 10px 30px;
-    border-radius: 4px;
-    transition: 0.5s;
-    margin-top: 30px;
-    color: #fff;
-    background: orangered;
-    border: 2px solid orange; }
-  #hero .btn-get-started:hover {
-    background: transparent;
-    border-color: #fff; }
-  @media (max-width: 768px) {
-    #hero {
-      text-align: center;
-      padding-top: 58px; } }
+  padding-top: 82px;
+}
+#hero h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+}
+#hero h2 {
+  color: #fff;
+  margin: 10px 0 0 0;
+  font-size: 24px;
+}
+#hero .btn-get-started {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 4px;
+  transition: 0.5s;
+  margin-top: 30px;
+  color: #fff;
+  background: orangered;
+  border: 2px solid orange;
+}
+#hero .btn-get-started:hover {
+  background: transparent;
+  border-color: #fff;
+}
+@media (max-width: 768px) {
+  #hero {
+    text-align: center;
+    padding-top: 58px;
+  }
+}
 
 #hero2 {
   width: 100%;
@@ -72,28 +88,33 @@ header {
   background: url("../img/banner dos.gif") top center no-repeat;
   background-size: cover;
   position: relative;
-  padding-top: 82px; }
-  #hero2 h2 {
-    color: #fff;
-    margin: 10px 0 0 0;
-    font-size: 38px; }
-  #hero2 .btn-get-started {
-    text-decoration: none;
-    font-family: "Raleway", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 10px 30px;
-    border-radius: 4px;
-    transition: 0.5s;
-    margin-top: 30px;
-    color: #fff;
-    background: orangered;
-    border: 2px solid orange; }
-  @media (max-width: 768px) {
-    #hero2 {
-      height: 120vh; } }
+  padding-top: 82px;
+}
+#hero2 h2 {
+  color: #fff;
+  margin: 10px 0 0 0;
+  font-size: 38px;
+}
+#hero2 .btn-get-started {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 4px;
+  transition: 0.5s;
+  margin-top: 30px;
+  color: #fff;
+  background: orangered;
+  border: 2px solid orange;
+}
+@media (max-width: 768px) {
+  #hero2 {
+    height: 120vh;
+  }
+}
 
 #hero3 {
   width: 100%;
@@ -101,37 +122,44 @@ header {
   background: url("../img/bannerPrincipal_Tratamiento.gif") top center no-repeat;
   background-size: cover;
   position: relative;
-  padding-top: 82px; }
-  #hero3 h1 {
-    margin: 0;
-    font-size: 48px;
-    font-weight: 700;
-    color: #fff; }
-  #hero3 h2 {
-    color: #fff;
-    margin: 10px 0 0 0;
-    font-size: 24px; }
-  #hero3 .btn-get-started {
-    text-decoration: none;
-    font-family: "Raleway", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 10px 30px;
-    border-radius: 4px;
-    transition: 0.5s;
-    margin-top: 30px;
-    color: #fff;
-    background: orangered;
-    border: 2px solid orange; }
-  #hero3 .btn-get-started:hover {
-    background: transparent;
-    border-color: #fff; }
-  @media (max-width: 768px) {
-    #hero3 {
-      text-align: center;
-      padding-top: 58px; } }
+  padding-top: 82px;
+}
+#hero3 h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+}
+#hero3 h2 {
+  color: #fff;
+  margin: 10px 0 0 0;
+  font-size: 24px;
+}
+#hero3 .btn-get-started {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 4px;
+  transition: 0.5s;
+  margin-top: 30px;
+  color: #fff;
+  background: orangered;
+  border: 2px solid orange;
+}
+#hero3 .btn-get-started:hover {
+  background: transparent;
+  border-color: #fff;
+}
+@media (max-width: 768px) {
+  #hero3 {
+    text-align: center;
+    padding-top: 58px;
+  }
+}
 
 #hero4 {
   width: 100%;
@@ -139,37 +167,44 @@ header {
   background: url("../img/BannerPrincipal_Contacto.gif") top center no-repeat;
   background-size: cover;
   position: relative;
-  padding-top: 82px; }
-  #hero4 h1 {
-    margin: 0;
-    font-size: 48px;
-    font-weight: 700;
-    color: #fff; }
-  #hero4 h2 {
-    color: #fff;
-    margin: 10px 0 0 0;
-    font-size: 24px; }
-  #hero4 .btn-get-started {
-    text-decoration: none;
-    font-family: "Raleway", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 10px 30px;
-    border-radius: 4px;
-    transition: 0.5s;
-    margin-top: 30px;
-    color: #fff;
-    background: orangered;
-    border: 2px solid orange; }
-  #hero4 .btn-get-started:hover {
-    background: transparent;
-    border-color: #fff; }
-  @media (max-width: 768px) {
-    #hero4 {
-      text-align: center;
-      padding-top: 58px; } }
+  padding-top: 82px;
+}
+#hero4 h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+}
+#hero4 h2 {
+  color: #fff;
+  margin: 10px 0 0 0;
+  font-size: 24px;
+}
+#hero4 .btn-get-started {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 4px;
+  transition: 0.5s;
+  margin-top: 30px;
+  color: #fff;
+  background: orangered;
+  border: 2px solid orange;
+}
+#hero4 .btn-get-started:hover {
+  background: transparent;
+  border-color: #fff;
+}
+@media (max-width: 768px) {
+  #hero4 {
+    text-align: center;
+    padding-top: 58px;
+  }
+}
 
 #hero5 {
   width: 100%;
@@ -177,147 +212,199 @@ header {
   background: url("../img/BannerPrincipal_contacto.png") top center no-repeat;
   background-size: cover;
   position: relative;
-  padding-top: 82px; }
-  #hero5 h1 {
-    margin: 0;
-    font-size: 48px;
-    font-weight: 700;
-    color: #fff; }
-  #hero5 h2 {
-    color: #fff;
-    margin: 10px 0 0 0;
-    font-size: 24px; }
-  #hero5 .btn-get-started {
-    text-decoration: none;
-    font-family: "Raleway", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 10px 30px;
-    border-radius: 4px;
-    transition: 0.5s;
-    margin-top: 30px;
-    color: #fff;
-    background: orangered;
-    border: 2px solid orange; }
-  #hero5 .btn-get-started:hover {
-    background: transparent;
-    border-color: #fff; }
-  @media (max-width: 768px) {
-    #hero5 {
-      text-align: center;
-      padding-top: 58px; } }
+  padding-top: 82px;
+}
+#hero5 h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+}
+#hero5 h2 {
+  color: #fff;
+  margin: 10px 0 0 0;
+  font-size: 24px;
+}
+#hero5 .btn-get-started {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 4px;
+  transition: 0.5s;
+  margin-top: 30px;
+  color: #fff;
+  background: orangered;
+  border: 2px solid orange;
+}
+#hero5 .btn-get-started:hover {
+  background: transparent;
+  border-color: #fff;
+}
+@media (max-width: 768px) {
+  #hero5 {
+    text-align: center;
+    padding-top: 58px;
+  }
+}
 
 /* Servicios Destacados */
 .estiloDestacadas h2 {
   text-align: center;
   color: orange;
-  text-decoration-line: underline; }
-
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
 .estiloDestacadas p {
   text-align: center;
-  color: orange; }
+  color: orange;
+}
 
 .formulario {
+
   border: blanchedalmond 1px solid;
   padding: 20px;
-  background-color: #e8caa4; }
+  background-color: #e8caa4;
+
+}
+
+@media (max-width: 987px) {
+  .formulario{
+     position: relative;
+     top: 50px;
+  }
+    
+   }
 
 .nuestradireccion {
   border: blanchedalmond 1px solid;
   position: relative;
   top: 40px;
-  background-color: #e8caa4; }
-  .nuestradireccion h3 {
-    text-align: center;
-    color: whitesmoke;
-    text-transform: uppercase; }
-  .nuestradireccion p {
-    text-align: center;
-    color: whitesmoke; }
+  background-color: #e8caa4;
+}
+.nuestradireccion h3 {
+  text-align: center;
+  color: whitesmoke;
+  text-transform: uppercase;
+}
+.nuestradireccion p {
+  text-align: center;
+  color: whitesmoke;
+}
 
 .nuestroEmail {
   border: blanchedalmond 1px solid;
   position: relative;
   top: 40px;
-  background-color: #e8caa4; }
-  .nuestroEmail h3 {
-    text-align: center;
-    color: whitesmoke;
-    text-transform: uppercase; }
-  .nuestroEmail p {
-    text-align: center;
-    color: whitesmoke; }
+  background-color: #e8caa4;
+}
+.nuestroEmail h3 {
+  text-align: center;
+  color: whitesmoke;
+  text-transform: uppercase;
+}
+.nuestroEmail p {
+  text-align: center;
+  color: whitesmoke;
+}
 
 .nuestroNumero {
   border: blanchedalmond 1px solid;
   position: relative;
   top: 40px;
-  background-color: #e8caa4; }
-  .nuestroNumero h3 {
-    text-align: center;
-    color: whitesmoke;
-    text-transform: uppercase; }
-  .nuestroNumero p {
-    text-align: center;
-    color: whitesmoke; }
+  background-color: #e8caa4;
+}
+.nuestroNumero h3 {
+  text-align: center;
+  color: whitesmoke;
+  text-transform: uppercase;
+}
+.nuestroNumero p {
+  text-align: center;
+  color: whitesmoke;
+}
 
 /* google maps */
 .ubicacionGoogleMaps {
   position: relative;
-  left: 15%; }
+  left: 15%;
+}
+
+@media (max-width: 987px) {
+  .ubicacionGoogleMaps{
+     position: relative;
+     top: 40px;
+  }
+    
+}
 
 /* Carrusel */
 .imagenCarrusel {
   width: 100%;
   height: 100vh;
   height: 500px;
-  object-fit: cover; }
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+
 
 /* Tratamiento */
-.imagenTratamientoUno, .imagenTratamientoDos, .imagerTratamientoTres, .imagenTratamientoCuatro, .imagenNostrosUno, .imagenNostrosDos {
+.imagenTratamientoUno, .imagenNostrosDos, .imagenNostrosUno, .imagenTratamientoCuatro, .imagerTratamientoTres, .imagenTratamientoDos {
   background: url("../img/Tratamiento Depilacion Definitiva.gif") no-repeat;
   width: 500px;
   height: 500px;
   position: relative;
-  left: 40px; }
+  left: 40px;
+}
 
 .imagenTratamientoDos {
   background: url("../img/Tratamiento VelaSlimPlus.gif") no-repeat;
-  left: 80px; }
+  left: 80px;
+}
 
 .imagerTratamientoTres {
-  background: url("../img/Tratamiento Podologia.gif") no-repeat; }
+  background: url("../img/Tratamiento Podologia.gif") no-repeat;
+}
 
 .imagenTratamientoCuatro {
-  background: url("../img/Tratamiento bodyUp.gif") no-repeat; }
+  background: url("../img/Tratamiento bodyUp.gif") no-repeat;
+}
 
 .tituloPrincipal {
-  text-align: center; }
+  text-align: center;
+}
 
 .textoDescripcion {
-  text-align: center; }
+  text-align: center;
+}
 
 .facebook {
   background: url(../img/LogoFacebook.png);
   height: 5rem;
-  width: 5rem; }
+  width: 5rem;
+}
 
 .instagram {
   background: url(../img/LogoInstagram.png);
   height: 5rem;
-  width: 5rem; }
+  width: 5rem;
+}
 
 .team .member {
   margin-bottom: 20px;
   overflow: hidden;
   border-radius: 5px;
-  background: #fff; }
+  background: #fff;
+}
 
 .team .member .member-img {
   position: relative;
-  overflow: hidden; }
+  overflow: hidden;
+}
 
 .team .member .social {
   position: absolute;
@@ -328,7 +415,8 @@ header {
   transition: ease-in-out 0.3s;
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+}
 
 .team .member .social a {
   transition: color 0.3s;
@@ -342,42 +430,56 @@ header {
   align-items: center;
   justify-content: center;
   transition: ease-in-out 0.3s;
-  color: #fff; }
+  color: #fff;
+}
 
 .team .member .social a:hover {
-  background: #111111; }
+  background: #111111;
+}
 
 .team .member .social i {
   font-size: 18px;
-  line-height: 0; }
+  line-height: 0;
+}
 
 .team .member .member-info {
-  padding: 25px 15px; }
+  padding: 25px 15px;
+}
 
 .team .member .member-info h4 {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 18px;
-  color: #111111; }
+  color: #111111;
+}
 
 .team .member .member-info span {
   display: block;
   font-size: 13px;
   font-weight: 400;
-  color: #aaaaaa; }
+  color: #aaaaaa;
+}
 
 .team .member .member-info p {
   font-style: italic;
   font-size: 14px;
   line-height: 26px;
-  color: #777777; }
+  color: #777777;
+}
 
 .team .member:hover .social {
   opacity: 1;
-  bottom: 15px; }
+  bottom: 15px;
+}
 
 .imagenNostrosUno {
-  background: url("../img/seccionNosotros_fabiana.png") no-repeat; }
+  background: url("../img/seccionNosotros_fabiana.png") no-repeat;
+}
 
 .imagenNostrosDos {
-  background: url("../img/imagenDestacados_maquina.png") no-repeat; }
+  background: url("../img/imagenDestacados_maquina.png") no-repeat;
+}
+
+footer {
+  background-color: whitesmoke;
+}/*# sourceMappingURL=estilo.css.map */
