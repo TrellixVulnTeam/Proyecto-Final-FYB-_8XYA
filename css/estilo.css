@@ -35,6 +35,12 @@ header .logoDeMarca a {
   background: url(../img/LogoInstagram.png);
 }
 
+.logoWhatsapp{
+  position: fixed;
+  bottom: 20px;
+  right: 0px;
+}
+
 /* el map get lo llevare a cabo en la seccion llamado redesSocialesContacto */
 /* Imagenes Iniciales */
 #hero {
@@ -479,6 +485,19 @@ header .logoDeMarca a {
 .imagenNostrosDos {
   background: url("../img/imagenDestacados_maquina.png") no-repeat;
 }
+
+.logoWhatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+@media (max-width: 338px) {
+  .logoWhatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+  }
+}/*# sourceMappingURL=estilo.css.map */
 
 footer {
   background-color: whitesmoke;

@@ -1,59 +1,66 @@
-.formulario{
-    display: flex;
-    border: blanchedalmond 1px solid;
-    padding: 20px;
-    background-color: #e8caa4;
 
-    @media (max-width: 987px) {
-     .formulario{
-        position: relative;
-        top: 1000px;
-     }
-       
-      }
-  
+
+.todoFormulario{
+    background-color: whitesmoke;
+    .formulario{
+        display: flex;
+        border: blanchedalmond 1px solid;
+        padding: 20px;
+        background-color: #e8caa4;
+    
+        @media (max-width: 987px) {
+         .formulario{
+            position: relative;
+            top: 1000px;
+         }
+           
+          }
+      
+    }
+    
+    
+    
+    .nuestradireccion{
+        @include estiloDatosContacto;
+    
+        h3{
+            @include estiloFuenteContacto;
+        }
+    
+        p{
+            text-align: center; 
+            color: whitesmoke;
+        }
+    }
+    
+    .nuestroEmail{
+        @include estiloDatosContacto;
+    
+        h3{
+            @include estiloFuenteContacto;
+        }
+    
+        p{
+            text-align: center;
+            color: whitesmoke;
+        }
+    }
+    
+    .nuestroNumero{
+        @include estiloDatosContacto;
+    
+        h3{
+            @include estiloFuenteContacto;
+        }
+    
+        p{
+            text-align: center;
+            color: whitesmoke;
+        }
+    }
+    
 }
 
-
-
-.nuestradireccion{
-    @include estiloDatosContacto;
-
-    h3{
-        @include estiloFuenteContacto;
-    }
-
-    p{
-        text-align: center; 
-        color: whitesmoke;
-    }
-}
-
-.nuestroEmail{
-    @include estiloDatosContacto;
-
-    h3{
-        @include estiloFuenteContacto;
-    }
-
-    p{
-        text-align: center;
-        color: whitesmoke;
-    }
-}
-
-.nuestroNumero{
-    @include estiloDatosContacto;
-
-    h3{
-        @include estiloFuenteContacto;
-    }
-
-    p{
-        text-align: center;
-        color: whitesmoke;
-    }
-}
 
 
 /* google maps */
