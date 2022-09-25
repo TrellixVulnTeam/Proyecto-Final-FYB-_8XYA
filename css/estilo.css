@@ -1,5 +1,13 @@
 /* Index */
 /* Header */
+
+body{
+ padding: 0px !important;
+ margin: 0px ;
+ 
+}
+
+
 header {
   background-color: whitesmoke;
 }
@@ -44,7 +52,8 @@ header .logoDeMarca a {
 /* el map get lo llevare a cabo en la seccion llamado redesSocialesContacto */
 /* Imagenes Iniciales */
 #hero {
-  width: 100%;
+ 
+  max-width: 100%;
   height: 100vh;
   background: url("../img/Banner De Inicio.gif") top center no-repeat;
   background-size: cover;
@@ -52,7 +61,7 @@ header .logoDeMarca a {
   padding-top: 82px;
 }
 #hero h1 {
-  margin: 0;
+  margin: 0px;
   font-size: 48px;
   font-weight: 700;
   color: #fff;
@@ -89,13 +98,17 @@ header .logoDeMarca a {
 }
 
 #hero2 {
-  width: 100%;
+  max-width: 100%;
   height: 100vh;
   background: url("../img/banner dos.gif") top center no-repeat;
   background-size: cover;
   position: relative;
   padding-top: 82px;
 }
+
+
+
+
 #hero2 h2 {
   color: #fff;
   margin: 10px 0 0 0;
@@ -118,12 +131,13 @@ header .logoDeMarca a {
 }
 @media (max-width: 768px) {
   #hero2 {
+    text-align: center;
     height: 120vh;
   }
 }
 
 #hero3 {
-  width: 100%;
+  max-width: 100%;
   height: 100vh;
   background: url("../img/bannerPrincipal_Tratamiento.gif") top center no-repeat;
   background-size: cover;
@@ -131,7 +145,7 @@ header .logoDeMarca a {
   padding-top: 82px;
 }
 #hero3 h1 {
-  margin: 0;
+  margin: 0px;
   font-size: 48px;
   font-weight: 700;
   color: #fff;
@@ -168,7 +182,7 @@ header .logoDeMarca a {
 }
 
 #hero4 {
-  width: 100%;
+  max-width: 100%;
   height: 100vh;
   background: url("../img/BannerPrincipal_Contacto.gif") top center no-repeat;
   background-size: cover;
@@ -213,7 +227,7 @@ header .logoDeMarca a {
 }
 
 #hero5 {
-  width: 100%;
+  max-width: 100%;
   height: 100vh;
   background: url("../img/BannerPrincipal_contacto.png") top center no-repeat;
   background-size: cover;
@@ -349,7 +363,9 @@ header .logoDeMarca a {
 
 /* Carrusel */
 .imagenCarrusel {
-  width: 100%;
+  
+
+  max-width: 100%;
   height: 100vh;
   height: 500px;
   -o-object-fit: cover;
@@ -365,6 +381,8 @@ header .logoDeMarca a {
   height: 500px;
   position: relative;
   left: 40px;
+
+  
 }
 
 .imagenTratamientoDos {
@@ -379,6 +397,8 @@ header .logoDeMarca a {
 .imagenTratamientoCuatro {
   background: url("../img/Tratamiento bodyUp.gif") no-repeat;
 }
+
+
 
 .tituloPrincipal {
   text-align: center;
@@ -497,8 +517,4 @@ header .logoDeMarca a {
     bottom: 20px;
     right: 40px;
   }
-}/*# sourceMappingURL=estilo.css.map */
-
-footer {
-  background-color: whitesmoke;
 }/*# sourceMappingURL=estilo.css.map */
