@@ -1,42 +1,41 @@
 /* Index */
 /* Header */
 
-body{
- padding: 0px !important;
- margin: 0px !important ;
- 
+body {
+  padding: 0px !important;
+  margin: 0px;
 }
-
 
 header {
   background-color: whitesmoke;
 }
+
 header .logoDeMarca {
   position: relative;
   right: 30px;
   height: 100px;
 }
+
 header .logoDeMarca a {
   text-transform: uppercase;
   font-size: 0, 8rem;
 }
+
 @media (min-width: 1024px) {
   header .elementosMenu {
     position: relative;
     left: 160px;
   }
+
   header .elementosMenu a {
-    color: brown;
     margin-left: 17px;
     text-transform: uppercase;
     font-size: 0, 8rem;
-   
-    
-  }
-  header a:hover {
-   filter: grayscale(70%);
   }
 
+  header a:hover {
+    filter: grayscale(70%);
+  }
 }
 
 .facebook {
@@ -47,7 +46,7 @@ header .logoDeMarca a {
   background: url(../img/LogoInstagram.png);
 }
 
-.logoWhatsapp{
+.logoWhatsapp {
   position: fixed;
   bottom: 20px;
   right: 0px;
@@ -56,7 +55,6 @@ header .logoDeMarca a {
 /* el map get lo llevare a cabo en la seccion llamado redesSocialesContacto */
 /* Imagenes Iniciales */
 #hero {
- 
   max-width: 100%;
   height: 100vh;
   background: url("../img/Banner De Inicio.gif") top center no-repeat;
@@ -64,17 +62,20 @@ header .logoDeMarca a {
   position: relative;
   padding-top: 82px;
 }
+
 #hero h1 {
   margin: 0px;
   font-size: 48px;
   font-weight: 700;
   color: #fff;
 }
+
 #hero h2 {
   color: #fff;
   margin: 10px 0 0 0;
   font-size: 24px;
 }
+
 #hero .btn-get-started {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
@@ -90,10 +91,12 @@ header .logoDeMarca a {
   background: orangered;
   border: 2px solid orange;
 }
+
 #hero .btn-get-started:hover {
   background: transparent;
   border-color: #fff;
 }
+
 @media (max-width: 768px) {
   #hero {
     text-align: center;
@@ -108,17 +111,14 @@ header .logoDeMarca a {
   background-size: cover;
   position: relative;
   padding-top: 82px;
- 
 }
-
-
-
 
 #hero2 h2 {
   color: #fff;
   margin: 10px 0 0 0;
   font-size: 38px;
 }
+
 #hero2 .btn-get-started {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
@@ -134,6 +134,7 @@ header .logoDeMarca a {
   background: orangered;
   border: 2px solid orange;
 }
+
 @media (max-width: 768px) {
   #hero2 {
     text-align: center;
@@ -149,17 +150,20 @@ header .logoDeMarca a {
   position: relative;
   padding-top: 82px;
 }
+
 #hero3 h1 {
   margin: 0px;
   font-size: 48px;
   font-weight: 700;
   color: #fff;
 }
+
 #hero3 h2 {
   color: #fff;
   margin: 10px 0 0 0;
   font-size: 24px;
 }
+
 #hero3 .btn-get-started {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
@@ -175,10 +179,12 @@ header .logoDeMarca a {
   background: orangered;
   border: 2px solid orange;
 }
+
 #hero3 .btn-get-started:hover {
   background: transparent;
   border-color: #fff;
 }
+
 @media (max-width: 768px) {
   #hero3 {
     text-align: center;
@@ -194,17 +200,20 @@ header .logoDeMarca a {
   position: relative;
   padding-top: 82px;
 }
+
 #hero4 h1 {
   margin: 0;
   font-size: 48px;
   font-weight: 700;
   color: #fff;
 }
+
 #hero4 h2 {
   color: #fff;
   margin: 10px 0 0 0;
   font-size: 24px;
 }
+
 #hero4 .btn-get-started {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
@@ -220,10 +229,12 @@ header .logoDeMarca a {
   background: orangered;
   border: 2px solid orange;
 }
+
 #hero4 .btn-get-started:hover {
   background: transparent;
   border-color: #fff;
 }
+
 @media (max-width: 768px) {
   #hero4 {
     text-align: center;
@@ -239,17 +250,20 @@ header .logoDeMarca a {
   position: relative;
   padding-top: 82px;
 }
+
 #hero5 h1 {
   margin: 0;
   font-size: 48px;
   font-weight: 700;
   color: #fff;
 }
+
 #hero5 h2 {
   color: #fff;
   margin: 10px 0 0 0;
   font-size: 24px;
 }
+
 #hero5 .btn-get-started {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
@@ -265,10 +279,12 @@ header .logoDeMarca a {
   background: orangered;
   border: 2px solid orange;
 }
+
 #hero5 .btn-get-started:hover {
   background: transparent;
   border-color: #fff;
 }
+
 @media (max-width: 768px) {
   #hero5 {
     text-align: center;
@@ -281,28 +297,26 @@ header .logoDeMarca a {
   text-align: center;
   color: orange;
   -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  text-decoration-line: underline;
 }
+
 .estiloDestacadas p {
   text-align: center;
   color: orange;
 }
 
 .formulario {
-
   border: blanchedalmond 1px solid;
   padding: 20px;
   background-color: #e8caa4;
-
 }
 
 @media (max-width: 987px) {
-  .formulario{
-     position: relative;
-     top: 50px;
+  .formulario {
+    position: relative;
+    top: 50px;
   }
-    
-   }
+}
 
 .nuestradireccion {
   border: blanchedalmond 1px solid;
@@ -310,11 +324,13 @@ header .logoDeMarca a {
   top: 40px;
   background-color: #e8caa4;
 }
+
 .nuestradireccion h3 {
   text-align: center;
   color: whitesmoke;
   text-transform: uppercase;
 }
+
 .nuestradireccion p {
   text-align: center;
   color: whitesmoke;
@@ -326,11 +342,13 @@ header .logoDeMarca a {
   top: 40px;
   background-color: #e8caa4;
 }
+
 .nuestroEmail h3 {
   text-align: center;
   color: whitesmoke;
   text-transform: uppercase;
 }
+
 .nuestroEmail p {
   text-align: center;
   color: whitesmoke;
@@ -342,11 +360,13 @@ header .logoDeMarca a {
   top: 40px;
   background-color: #e8caa4;
 }
+
 .nuestroNumero h3 {
   text-align: center;
   color: whitesmoke;
   text-transform: uppercase;
 }
+
 .nuestroNumero p {
   text-align: center;
   color: whitesmoke;
@@ -359,43 +379,38 @@ header .logoDeMarca a {
 }
 
 @media (max-width: 987px) {
-  .ubicacionGoogleMaps{
-     position: relative;
-     top: 40px;
+  .ubicacionGoogleMaps {
+    position: relative;
+    top: 40px;
   }
-    
 }
 
 /* Carrusel */
 .imagenCarrusel {
-  
-
   max-width: 100%;
   height: 100vh;
   height: 500px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
-
-
 /* Tratamiento */
-.imagenTratamientoUno, .imagenNostrosDos, .imagenNostrosUno, .imagenTratamientoCuatro, .imagerTratamientoTres, .imagenTratamientoDos {
+.imagenTratamientoUno,
+.imagenNostrosDos,
+.imagenNostrosUno,
+.imagenTratamientoCuatro,
+.imagerTratamientoTres,
+.imagenTratamientoDos {
   background: url("../img/Tratamiento Depilacion Definitiva.gif") no-repeat;
   width: 500px;
   height: 500px;
   position: relative;
   left: 40px;
-
-  
 }
 
 .imagenTratamientoDos {
   background: url("../img/Tratamiento VelaSlimPlus.gif") no-repeat;
-  
 }
-
-
 
 .imagerTratamientoTres {
   background: url("../img/Tratamiento Podologia.gif") no-repeat;
@@ -405,31 +420,23 @@ header .logoDeMarca a {
   background: url("../img/Tratamiento\ bodyUp.gif") no-repeat;
 }
 
-
- 
-
-
-
 @media only screen and (min-width: 379px) and (max-width: 500px) {
- .imagenTratamientoUno, .imagenTratamientoDos, .imagerTratamientoTres, .imagenTratamientoCuatro{
- 
-  height: 400px ;
-  width: 300px ;
 
-   
+  .imagenTratamientoUno,
+  .imagenTratamientoDos,
+  .imagerTratamientoTres,
+  .imagenTratamientoCuatro {
+    height: 400px;
+    width: 300px;
   }
 }
-
-
 
 @media only screen and (min-width: 769px) and (max-width: 1040px) {
-  .posicionTratemientos{
+  .posicionTratemientos {
     position: relative;
     left: 25%;
-   
   }
 }
-
 
 .tituloPrincipal {
   text-align: center;
@@ -542,15 +549,18 @@ header .logoDeMarca a {
   bottom: 20px;
   right: 20px;
 }
+
 @media (max-width: 338px) {
   .logoWhatsapp {
     position: fixed;
     bottom: 20px;
     right: 40px;
   }
-}/*# sourceMappingURL=estilo.css.map */
+}
 
-.logoFooter{
+/*# sourceMappingURL=estilo.css.map */
+
+.logoFooter {
   background: url("../img/LogoMarca.png") no-repeat;
   position: relative;
   left: 50px;
@@ -559,7 +569,7 @@ header .logoDeMarca a {
 @media (max-width: 450px) {
   .logoFooter {
     position: relative;
-   
+
     left: 35%;
   }
 }
@@ -567,7 +577,7 @@ header .logoDeMarca a {
 @media (max-width: 606px) {
   .posicionMenu {
     position: relative;
-   
+
     left: 10%;
   }
 }
@@ -575,18 +585,15 @@ header .logoDeMarca a {
 @media (max-width: 760px) {
   .posicionMenu {
     position: relative;
-   
+
     right: 20%;
   }
-
 }
 
 @media (max-width: 760px) {
   .posicionDerechos {
     position: relative;
-   
+
     bottom: 0%;
   }
-
 }
-
