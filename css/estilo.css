@@ -24,7 +24,7 @@ header .logoDeMarca a {
 @media (min-width: 1024px) {
   header .elementosMenu {
     position: relative;
-    left: 160px;
+    left: 100px;
   }
 
   header .elementosMenu a {
@@ -292,6 +292,63 @@ header .logoDeMarca a {
   }
 }
 
+#hero6 {
+  max-width: 100%;
+  height: 100vh;
+  background: url("../img/bannerPrincipal_testimonios.gif") top center no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 82px;
+}
+
+#hero6 h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+}
+
+#hero6 h2 {
+  color: #fff;
+  margin: 10px 0 0 0;
+  font-size: 24px;
+}
+
+#hero6 .btn-get-started {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 4px;
+  transition: 0.5s;
+  margin-top: 30px;
+  color: #fff;
+  background: orangered;
+  border: 2px solid orange;
+}
+
+#hero6 .btn-get-started:hover {
+  background: transparent;
+  border-color: #fff;
+}
+
+@media (max-width: 768px) {
+  #hero6 {
+    text-align: center;
+    padding-top: 58px;
+  }
+}
+
+
+
+
+
+
+
+
 /* Servicios Destacados */
 .estiloDestacadas h2 {
   text-align: center;
@@ -431,12 +488,16 @@ header .logoDeMarca a {
   }
 }
 
-@media only screen and (min-width: 769px) and (max-width: 1040px) {
+@media only screen and (min-width: 769px) and (max-width: 1900px) {
   .posicionTratemientos {
     position: relative;
     left: 25%;
   }
 }
+
+
+
+
 
 .tituloPrincipal {
   text-align: center;
@@ -540,9 +601,30 @@ header .logoDeMarca a {
   background: url("../img/seccionNosotros_fabiana.png") no-repeat;
 }
 
+@media only screen and (min-width: 360px) and (max-width: 452px) {
+  .imagenNostrosUno
+  {
+   width: 400px;
+   height: 400px;
+  
+  }
+}
+
+
 .imagenNostrosDos {
   background: url("../img/imagenDestacados_maquina.png") no-repeat;
 }
+
+@media only screen and (min-width: 360px) and (max-width: 452px) {
+  .imagenNostrosDos
+  {
+   width: 400px;
+   height: 400px;
+
+  
+  }
+}
+
 
 .logoWhatsapp {
   position: fixed;
